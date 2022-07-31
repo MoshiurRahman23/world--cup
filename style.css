@@ -3,6 +3,12 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
+/* ------------------------main part --------------------------- */
+main{
+    border-radius: 10px;
+    margin:50px 100px 100px 100px ;
+}
+/* ---------------------------header part --------------------- */
 .header-container{
     background-color: black;
     border-radius: 25px; 
@@ -32,13 +38,7 @@ body{
     height: 613px;
 }
 
-
-
-
-main{
-    border-radius: 10px;
-    margin:50px 100px 100px 100px ;
-}
+/* -------------------------------blogs part -------------------------------- */
 .blogs-1{
     background-color: black;
     width: 250px;
@@ -55,6 +55,7 @@ main{
 .button-manu{
     display: flex;
     background-color: white;
+    color: white;
     align-items: center;
     justify-content: center;
     padding: 10px 10px;
@@ -67,6 +68,19 @@ main{
 .button-manu-3{
     display: flex;
     background-color: red;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 30px 10px;
+    height: 20px;
+    width: 200px;
+}
+.button-manu-1{
+    display: flex;
+    background-color: red;
+    color: white;
     align-items: center;
     justify-content: center;
     padding: 10px 10px;
@@ -131,6 +145,7 @@ button {
     align-items: center;
     gap: 5px;
 }
+/* ----------------------------------------footer part ------------------------------------------ */
 .footer-container{
     margin: 0px;
     padding: 0px;
@@ -156,7 +171,7 @@ h2{
     justify-content: space-around;
 
 }
-/*-------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------website two-------------------------------------------------------------*/
 
 .blogs{
     display: grid;
